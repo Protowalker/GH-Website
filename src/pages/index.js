@@ -1,5 +1,8 @@
 import React from "react"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div><h1>Soon to be Grandeur Hammers</h1><div>Hello world!</div>
+  </div>
+
+
 }
