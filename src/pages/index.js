@@ -1,8 +1,16 @@
 import React from "react"
-
-export default function Home() {
-  return <div><h1>Soon to be Grandeur Hammers</h1><div>Hello world!</div>
-  </div>
-
-
+import { GHThemeProvider } from "../Theme"
+import {
+  BottomNavigationAction,
+  Button,
+  CardActionArea,
+  Fab,
+  IconButton,
+  Link,
+} from "gatsby-theme-material-ui";
+import Home from './Home';
+export default function IndexPage() {
+  return (
+    <Home/>
+  )
 }
